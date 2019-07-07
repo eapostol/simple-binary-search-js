@@ -36,3 +36,10 @@ Determine the middle index.
 Compare the middle element with number x. If equal return true.
 If greater, call the same function with ending index = middle-1 and repeat step 1.
 If smaller, call the same function with starting index = middle+1 and repeat step 1.
+
+## Note there are two approaches.
+
+binarysearch.html => uses a recursion function
+
+binarysearch-iteration.html => uses a while loop until reaching the end
+of the length of the array.
